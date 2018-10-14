@@ -1,0 +1,47 @@
+@import '~bulma/bulma';
+
+$navbar-background-color: #fff;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hinkleyforcouncil.appspot.com/o/rogue-river.jpg?alt=media&token=85ad92f6-1e23-4c89-ba2e-13c8ea963254');
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  .header-text {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2em;
+  }
+}
+
+.columns {
+  min-height: 15em;
+}
+.column {
+  height: 100%;
+}
+.section-snippet {
+  background-color: rgba(255, 255, 255, .5);
+}
+#infrastructure {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hinkleyforcouncil.appspot.com/o/street-building-construction-industry.jpg?alt=media&token=fa246043-4af8-41c4-b7d1-af7be4443430');
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+#communications {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hinkleyforcouncil.appspot.com/o/phone-booth.jpeg?alt=media&token=c02668ab-a886-45c5-b4ed-41ea2233d018');
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+#budget {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hinkleyforcouncil.appspot.com/o/budget.jpeg?alt=media&token=858902ef-2340-42c5-8bcf-cdc1333dbc05');
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
